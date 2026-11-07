@@ -8,7 +8,6 @@ Welcome to my GitHub! I am an Electronics and Communication Engineering student 
 ###  Target Domains
 *   **VLSI / RTL Design:** Finite State Machines (FSMs), synchronous sequential logic, and digital controllers.
 *   **High-Performance Computing (HPC):** Hardware acceleration and hardware/software co-design.
-*   **Embedded Systems:** Sensor integration (I2C/SPI/UART), microcontroller firmware (ESP32), and IoT.
 
 ###  Core Languages & Tools
 *   **Languages:** Verilog HDL, C, C++, Python
@@ -16,19 +15,22 @@ Welcome to my GitHub! I am an Electronics and Communication Engineering student 
 
 ###  Current Focus
 *   Prototyping digital logic and matrix multiplier architectures on FPGA hardware.
-*   Preparing for the GATE ECE examination with a strong focus on core electronics, digital circuits, and computer architecture.
+
 
  **How to reach me:** [venkatasathvik.k.16@gmail.com]
 
 
 
 # Projects Portfolio
- 
-My work bridges the gap between digital logic design and real-world embedded applications. I focus on architecting synchronous RTL systems—such as high-throughput finite state machines in Verilog—alongside developing sensor-driven IoT nodes and hazard-sensing hardware using microcontrollers and C/C++.
 
+My work bridges the gap between digital logic design and real-world embedded applications[cite: 12]. I focus on architecting synchronous RTL systems—such as high-throughput finite state machines in Verilog—alongside developing sensor-driven IoT nodes and hazard-sensing hardware using microcontrollers and C/C++[cite: 12].
 
-esp32-accident-alert-iot: A real-time tracking and accident detection embedded unit using an ESP32, ADXL345 3-axis accelerometer, and a NEO-6M GPS module. Features custom I2C and UART driver logic in C/C++ and automated webhooks for low-latency telemetry.
+### Directory Overview
 
-conveyor-belt-fsm-verilog: A digital sorting controller designed in Verilog HDL. Implements a multi-state Mealy/Moore FSM synthesized and simulated in Vivado to maintain high-throughput synchronous operation.
-
-vending-machine-rtl: An automated coin-dispensing and inventory transaction controller utilizing synchronous sequential logic. Features a modular RTL architecture separating the datapath and control unit for optimized resource consumption.
+*   **mini-systolic-array-verilog:** A $4 \times 4$ weight-stationary mini systolic array matrix multiplier designed in Verilog HDL. Architected to accelerate INT8 quantized neural network layer computations and simulated using Xilinx Vivado.
+  
+*   **esp32-accident-alert-iot:** A real-time tracking and accident detection embedded unit using an ESP32, ADXL345 3-axis accelerometer, and a NEO-6M GPS module[cite: 12]. Features custom I2C and UART driver logic in C/C++ and automated webhooks for low-latency telemetry[cite: 12].
+  
+*   **conveyor-belt-fsm-verilog:** A digital sorting controller designed in Verilog HDL[cite: 12]. Implements a multi-state Mealy/Moore FSM synthesized and simulated in Vivado to maintain high-throughput synchronous operation[cite: 12].
+  
+*   **vending-machine-rtl:** An automated coin-dispensing and inventory transaction controller utilizing synchronous sequential logic[cite: 12]. Features a modular RTL architecture separating the datapath and control unit for optimized resource consumption[cite: 12].
